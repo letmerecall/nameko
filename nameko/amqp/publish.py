@@ -60,7 +60,7 @@ class Publisher(object):
     available options.
     """
 
-    delivery_mode = PERSISTENT
+    delivery_mode = 1
     """
     Default delivery mode for messages published by this Publisher.
     """
